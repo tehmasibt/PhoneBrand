@@ -1,0 +1,16 @@
+CREATE DATABASE Telephone
+USE master
+USE Telephone
+
+
+CREATE TABLE Brands
+(
+Id INT PRIMARY KEY IDENTITY,
+[Name] NVARCHAR(255),
+PhoneNumber NVARCHAR(255)
+)
+
+
+
+
+
